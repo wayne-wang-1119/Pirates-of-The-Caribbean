@@ -21,22 +21,22 @@ import java.io.IOException;
  */
 
 public class Tileset {
-    public static final TETile AVATAR = new TETile('@', Color.white, Color.black, "you", "byow/TileEngine/textures/Knight.png");
+    public static final TETile AVATAR = new TETile('@', Color.white, Color.black, "you", "byow/TileEngine/textures/new_image.png");
     public static final TETile WALL = new TETile('#', new Color(216, 128, 128), Color.darkGray,
-            "wall");
+            "wall", "byow/TileEngine/textures/new_image.png");
     public static final TETile FLOOR = new TETile('·', new Color(128, 192, 128), Color.black,
-            "floor");
-    public static final TETile NOTHING = new TETile(' ', Color.black, Color.black, "Out of Reach", "byow/TileEngine/textures/nothing.png");
-    public static final TETile GRASS = new TETile('"', Color.green, Color.black, "grass");
-    public static final TETile WATER = new TETile('≈', Color.blue, Color.black, "Hallway Floor", "byow/TileEngine/textures/stonefloor.png");
-    public static final TETile FLOWER = new TETile('❀', Color.magenta, Color.pink, "Treasure", "byow/TileEngine/textures/Chests.png");
+            "floor", "byow/TileEngine/textures/new_image.png");
+    public static final TETile NOTHING = new TETile(' ', Color.black, Color.black, "Out of Reach", "byow/TileEngine/textures/new_image.png");
+    public static final TETile GRASS = new TETile('"', Color.green, Color.black, "grass", "byow/TileEngine/textures/new_image.png");
+    public static final TETile WATER = new TETile('≈', Color.blue, Color.black, "Hallway Floor", "byow/TileEngine/textures/new_image.png");
+    public static final TETile FLOWER = new TETile('❀', Color.magenta, Color.pink, "Treasure", "byow/TileEngine/textures/new_image.png");
     public static final TETile LOCKED_DOOR = new TETile('█', Color.orange, Color.black,
-            "locked door");
+            "locked door", "byow/TileEngine/textures/new_image.png");
     public static final TETile UNLOCKED_DOOR = new TETile('▢', Color.orange, Color.black,
-            "unlocked door", "byow/TileEngine/textures/doors2.png");
-    public static final TETile SAND = new TETile('▒', Color.yellow, Color.black, "Room Floor", "byow/TileEngine/textures/room.png");
-    public static final TETile MOUNTAIN = new TETile('▲', Color.gray, Color.black, "Hallway Wall", "byow/TileEngine/textures/free_torches.png");
-    public static final TETile TREE = new TETile('♠', Color.green, Color.black, "Room Wall", "byow/TileEngine/textures/room_wall.png");
+            "unlocked door", "byow/TileEngine/textures/new_image.png");
+    public static final TETile SAND = new TETile('▒', Color.yellow, Color.black, "Room Floor", "byow/TileEngine/textures/new_image.png");
+    public static final TETile MOUNTAIN = new TETile('▲', Color.gray, Color.black, "Hallway Wall", "byow/TileEngine/textures/new_image.png");
+    public static final TETile TREE = new TETile('♠', Color.green, Color.black, "Room Wall", "byow/TileEngine/textures/new_image.png");
 
 }
 
